@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random
 
 from labyrinth import read_labyrinth_from_lines, find_points, get_colormap
-from algorithms import run_experiment
+from algorithms import run_experiment, bfs, dfs, a_star, greedy_best_first, manhattan
 
 st.set_page_config(page_title="Búsqueda en Laberintos", layout="wide")
 st.title("Visualización de Algoritmos de Búsqueda en Laberintos")
